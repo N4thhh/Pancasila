@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Tes Wawasan Nusantara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'merah-tema': '#DC2626',
+                        'putih-tema': '#FFFFFF',
+                        'abu-latar': '#F3F4F6',
+                        'hijau-mudah': '#10B981',
+                        'kuning-normal': '#F59E0B',
+                        'merah-sulit': '#EF4444',
+                        'lb-emas': '#FEF3C7',
+                        'lb-perak': '#E5E7EB',
+                        'lb-perunggu': '#FFEDD5',
+                        'ikon-emas': '#F59E0B',
+                        'ikon-perak': '#6B7280',
+                        'ikon-perunggu': '#F97316',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-abu-latar">
+
+    <nav class="shadow-md sticky top-0 z-50 relative bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1519093378370-10f5d4ER256d?auto=format&fit=crop&w=1470')">
+        
+        <div class="absolute inset-0 bg-gradient-to-r from-merah-tema to-merah-tema/70"></div>
+
+        <div class="container mx-auto px-6 py-4 relative z-10">
+            <div class="flex items-center justify-between">
+                
+                <div>
+                    <img src="/Assets/Logo.svg" alt="Logo Tes Wawasan Nusantara" class="h-8 w-auto">
+                </div>
+                
+                <div>
+                    <a href="index.html" class="text-putih-tema font-medium hover:text-gray-200 px-3 py-2 rounded-md text-sm md:text-base">
+                        Home
+                    </a>
+                    <a href="tentang.html" class="text-putih-tema font-medium hover:text-gray-200 px-3 py-2 rounded-md text-sm md:text-base">
+                        Tentang Kami
+                    </a>
+                    <a href="index.html#leaderboard" class="text-putih-tema font-medium hover:text-gray-200 px-3 py-2 rounded-md text-sm md:text-base">
+                        Leaderboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-putih-tema relative bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1519093378370-10f5d4ER256d?auto=format&fit=crop&w=1470')">
+        
+        <div class="absolute inset-0 bg-gradient-to-r from-merah-tema to-merah-tema/70"></div>
+
+        <div class="container mx-auto px-6 py-20 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                Tentang Tes Wawasan Nusantara
+            </h1>
+            <p class="text-lg md:text-xl mb-8">
+                Mengenal lebih jauh misi dan fitur di balik platform kuis ini.
+            </p>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-6 py-16">
+        
+        <div class="bg-putih-tema rounded-xl shadow-lg p-8 md:p-12 max-w-4xl mx-auto">
+            
+            <h2 class="text-3xl font-bold text-merah-tema mb-6">Misi Kami</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                Misi utama dari platform "Tes Wawasan Nusantara" adalah untuk menyediakan media belajar yang seru dan interaktif bagi siapa saja yang ingin menguji dan memperdalam pengetahuan mereka tentang Indonesia. Kami percaya bahwa dengan cara yang menyenangkan, kita bisa menumbuhkan rasa cinta dan bangga terhadap keragaman budaya, sejarah, dan geografi bangsa kita.
+            </p>
+
+            <h2 class="text-3xl font-bold text-merah-tema mb-6">Fitur Utama</h2>
+            <div class="space-y-4 text-lg text-gray-700 mb-8">
+                <div class="flex items-start">
+                    <span class="text-hijau-mudah font-bold mr-3">✔</span>
+                    <p><strong class="text-gray-900">3 Tingkat Kesulitan:</strong> Pilih tantangan Anda mulai dari "Mudah", "Normal", hingga "Sulit". Setiap kategori memiliki bank soalnya sendiri.</p>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-hijau-mudah font-bold mr-3">✔</span>
+                    <p><strong class="text-gray-900">15 Soal Acak:</strong> Anda tidak akan bosan! Sistem akan memilih 15 soal secara acak dari total 50 soal di setiap kategori, sehingga setiap sesi kuis terasa unik.</p>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-hijau-mudah font-bold mr-3">✔</span>
+                    <p><strong class="text-gray-900">Tanpa Perlu Akun:</strong> Langsung main! Kami tidak merepotkan Anda dengan proses registrasi. Cukup pilih kategori dan mulai kuisnya.</p>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-hijau-mudah font-bold mr-3">✔</span>
+                    <p><strong class="text-gray-900">Papan Peringkat (Leaderboard):</strong> Setelah selesai, masukkan nama Anda dan lihat peringkat Anda dibandingkan dengan pemain lain di kategori yang sama.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-800 text-white text-center p-6 mt-12">
+        <p>&copy; 2025 Tes Wawasan Nusantara. Dibuat untuk belajar.</p>
+    </footer>
+
+</body>
+</html> 
